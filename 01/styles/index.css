@@ -1,0 +1,143 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#box-player1 {
+  background-color: #2A2141;
+  padding: 2.375rem;
+  border-radius: 10px;
+  max-height: 31.125rem;
+}
+
+#box-player1 img {
+  margin-bottom: 1.813rem;
+}
+
+#box-player1 p {
+  font-size: 1.188rem;
+  opacity: 0.67;
+}
+
+.icons-player1 {
+  width: 100%;
+  margin: 1.813rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-player1 i {
+  font-size: 29px;
+  cursor: pointer;
+}
+
+.white-bar {
+  width: 85%;
+  background: #d9d9d9;
+  border-radius: 999px;
+  height: 6px;
+}
+
+.gray-bar {
+  width: 100%;
+  background: #d9d9d9;
+  opacity: 0.3;
+  border-radius: 999px;
+  height: 6px;
+  transform: translateY(-100%);
+}
+
+.timer {
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer span {
+  font-size: 0.9rem;
+  color: #c4c4cc;
+}
+
+/* player 2 */
+
+#box-player2 {
+  background-color: #2A2141;
+  padding: 1.813rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  max-height: 16.688rem;
+}
+
+#box-player2 header {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 1.813rem;
+  display: flex;
+  align-items: center;
+  gap: 1.813rem;
+}
+
+#box-player2 header img {
+  width: 5.25rem;
+  object-fit: cover;
+}
+
+#box-player2 header p {
+  font-size: 1.188rem;
+  opacity: 0.67;
+}
+
+.icons-player2 {
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem;
+  margin: 1.813rem 0;
+}
+
+.icons-player2 i {
+  font-size: 29px;
+  cursor: pointer;
+}
+
+/* player 3 */
+
+#box-player3 {
+  background-color: #2A2141;
+  padding: 1.813rem;
+  border-radius: 10px;
+  max-height: 12.438rem;
+}
+
+#box-player3 header {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 1.813rem;
+  display: flex;
+  align-items: center;
+  gap: 1.813rem;
+}
+
+#box-player3 header img {
+  width: 5.25rem;
+  object-fit: cover;
+}
+
+#box-player3 header p {
+  font-size: 1.188rem;
+  opacity: 0.67;
+}
+
+.icons-player3 {
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem;
+  margin-top: 1.813rem;
+}
+
+.icons-player3 i {
+  font-size: 29px;
+  cursor: pointer;
+}
