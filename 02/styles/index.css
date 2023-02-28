@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 13px
+}
+
+.imgContainer {
+  max-width: 500px;
+  height: 253px;
+  width: 100%;
+  position: relative;
+}
+
+.couchImg {
+  width: 449px;
+}
+
+.imgContainer button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.details span {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.details h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.details p {
+  margin-bottom: 20px;
+}
+
+.details button {
+  background: transparent;
+  padding: 8px 16px;
+  border: 1px solid #271A45;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+@media (max-width: 810px) {
+  main {
+    flex-wrap: wrap;
+  }
+}
